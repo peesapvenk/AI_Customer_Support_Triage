@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1",
+    "text": "I was charged twice for my subscription.",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "2",
+    "text": "Our entire company cannot access the service. Everything is down.",
+    "expected_team": "technical_support",
+    "expected_priority": "critical"
+  },
+  {
+    "id": "3",
+    "text": "Can you tell me whether you support dark mode?",
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "4",
+    "text": "Can you tell me whether you support light mode?",
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "5",
+    "text": "Assistance with developer enhancement - understanding code.",
+    "expected_team": "technical_support",
+    "expected_priority": "low"
+  },
+  {
+    "id": "6",
+    "text": "The APIs are down.",
+    "expected_team": "technical_support",
+    "expected_priority": "high"
+  },
+  {
+    "id": "7",
+    "text": "I am unable to log in to my account. I get a message saying invalid error",
+    "expected_team": "account_access",
+    "expected_priority": "high"
+  },
+  {
+    "id": "8",
+    "text": "I was charged twice for my monthly subscription yesterday. My bank shows two completed payments, but the billing page only lists one invoice. Please refund the duplicate charge.",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "9",
+    "text": "Hi, where can I download a PDF copy of my last three invoices? Our finance team needs them for month-end reporting.",
+    "expected_team": "billing",
+    "expected_priority": "low"
+  },
+  {
+    "id": "10",
+    "text": "My company card expired, so this month's payment failed. I've added a new card, but the account still says \"payment overdue.\" How do I retry the payment?",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "11",
+    "text": "We're being billed for 25 seats even though only 18 people have access. Can you explain how the seat count is calculated before our next renewal?",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "12",
+    "text": "I requested cancellation last week, but my plan renewed this morning. I don't think I should have been charged. Can someone review this?",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "13",
+    "text": "I forgot my password. The reset email hasn't arrived after three attempts, and I've checked spam. Is there another way to get back into my account?",
+    "expected_team": "account_access",
+    "expected_priority": "high"
+  },
+  {
+    "id": "14",
+    "text": "I replaced my phone and no longer have access to my authenticator app. I'm the only administrator on our workspace, so nobody can manage user permissions right now.",
+    "expected_team": "account_access",
+    "expected_priority": "high"
+  },
+  {
+    "id": "15",
+    "text": "URGENT: I just received a login alert from a country I've never visited, and several account settings changed without my permission. Please help secure the account immediately.",
+    "expected_team": "account_access",
+    "expected_priority": "critical"
+  },
+  {
+    "id": "16",
+    "text": "Our entire team is getting a 503 error when opening the dashboard. We have a customer presentation in 40 minutes. Is there an outage?",
+    "expected_team": "technical_support",
+    "expected_priority": "critical"
+  },
+  {
+    "id": "17",
+    "text": "The dashboard takes around 45 seconds to load every time I change a filter. It used to be much faster. Is there a performance issue?",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "18",
+    "text": "After today's update, clicking \"Export CSV\" downloads a file with only column headers, even though the report shows hundreds of rows.",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "19",
+    "text": "My report says we had 1,240 orders yesterday, but the source system shows 1,482. Which number is correct? This is affecting the sales report we send to management.",
+    "expected_team": "technical_support",
+    "expected_priority": "high"
+  },
+  {
+    "id": "20",
+    "text": "I connected our CRM, but new contacts stopped syncing two days ago. I tried reconnecting the integration and nothing changed. Can you investigate?",
+    "expected_team": "technical_support",
+    "expected_priority": "high"
+  },
+  {
+    "id": "21",
+    "text": "Does your platform support connecting to Google Sheets directly, or do I need to export a CSV each time?",
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "22",
+    "text": "I accidentally deleted a project with six months of work in it about 10 minutes ago. Is there any way to restore it?",
+    "expected_team": "technical_support",
+    "expected_priority": "critical"
+  },
+  {
+    "id": "23",
+    "text": "Please permanently delete my account and any personal data associated with it. I'd also like confirmation when the request has been completed.",
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "24",
+    "text": "A contractor can see a private client workspace even though they're supposed to have access to one project only. We may have exposed confidential information. Please escalate this.",
+    "expected_team": "account_access",
+    "expected_priority": "critical"
+  },
+  {
+    "id": "25",
+    "text": "Could you add dark mode? Several of us work late, and the current interface is hard on the eyes.",
+    "expected_team": "technical_support",
+    "expected_priority": "low"
+  },
+  {
+    "id": "26",
+    "text": "It would be helpful to schedule reports to run automatically every Monday and email the results to our team. Is this feature on your roadmap?",
+    "expected_team": "technical_support",
+    "expected_priority": "low"
+  },
+  {
+    "id": "27",
+    "text": "Can you tell me the difference between the Basic and Pro plans? We have eight users and mostly need shared dashboards.",
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
+  },
+  {
+    "id": "28",
+    "text": "I invited a new colleague, but the invitation link says \"expired\" even though I sent it five minutes ago. Resending didn't help.",
+    "expected_team": "account_access",
+    "expected_priority": "high"
+  },
+  {
+    "id": "29",
+    "text": "I'm trying to upload a 20 MB spreadsheet and it keeps failing at 95%. Smaller files work fine. Is there a file-size limit?",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "30",
+    "text": "Your mobile app crashes whenever I open the notifications tab on my Android phone. I've restarted the app twice. What else should I try?",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "31",
+    "text": "I'm really disappointed. This is the fourth time I've contacted support about the same broken report, and each time someone tells me it's fixed when it isn't. I need a proper resolution.",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "32",
+    "text": "hey, can someone call me? it's not working again. thanks",
+    "expected_team": "technical_support",
+    "expected_priority": "medium"
+  },
+  {
+    "id": "33",
+    "text": "THIS IS URGENT!!! I can't change the color of the chart bars to match our brand. We need screenshots for a meeting next week.",
+    "expected_team": "technical_support",
+    "expected_priority": "low"
+  },
+  {
+    "id": "34",
+    "text": "Our automated data import failed overnight, and 300 customer orders are missing from today's fulfilment queue. We need a workaround as soon as possible.",
+    "expected_team": "technical_support",
+    "expected_priority": "high"
+  },
+  {
+    "id": "35",
+    "text": "I'm evaluating the trial and want to know whether you offer discounts for registered charities. Who should I talk to?",
+    "expected_team": "billing",
+    "expected_priority": "low"
+  },
+  {
+    "id": "36",
+    "text": "The screen reader announces \"button\" for several unlabeled controls in the settings page, so I can't tell what they do. Is there an accessible alternative?",
+    "expected_team": "technical_support",
+    "expected_priority": "high"
+  },
+  {
+    "id": "37",
+    "text": "I got an email saying my subscription will end tomorrow, but I thought we were on an annual contract. Our team needs continued access. Can you confirm what's happening before the account is suspended?",
+    "expected_team": "billing",
+    "expected_priority": "medium"
+  }
+]
