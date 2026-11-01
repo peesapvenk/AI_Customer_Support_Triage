@@ -9,6 +9,7 @@ class TriageResult(BaseModel):
         "technical_support",
         "account_access",
         "general_inquiry",
+        "feature_request",
     ]
 
     priority: Literal[

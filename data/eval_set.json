@@ -152,7 +152,7 @@
   {
     "id": "26",
     "text": "It would be helpful to schedule reports to run automatically every Monday and email the results to our team. Is this feature on your roadmap?",
-    "expected_team": "technical_support",
+    "expected_team": "feature_request",
     "expected_priority": "low"
   },
   {
@@ -218,7 +218,7 @@
   {
     "id": "37",
     "text": "I got an email saying my subscription will end tomorrow, but I thought we were on an annual contract. Our team needs continued access. Can you confirm what's happening before the account is suspended?",
-    "expected_team": "billing",
-    "expected_priority": "medium"
+    "expected_team": "general_inquiry",
+    "expected_priority": "low"
   }
 ]
